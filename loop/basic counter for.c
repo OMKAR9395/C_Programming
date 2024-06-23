@@ -4,7 +4,7 @@ int main()
 {
     for (int i = 1; i<=5; i++)
     {
-        printf("\n counter: %d,i");
+        printf("\n counter: %d",i);
     }
     printf("\n thanks!");
     getch();
