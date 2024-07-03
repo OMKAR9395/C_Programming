@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void Namaste();
+void Hello();
+int main()
+{
+    char ch;
+    printf("\n Enter a character n for Namaste h For Hello: ");
+    scanf("%c",&ch);
+    if(ch=='n')
+    {
+        Namaste();
+    }
+    else
+
+    {
+        Hello();
+    }
+    getch();
+    return 0;
+}
+void Namaste()
+{
+    printf("\n Namaste");
+}
+void Hello()
+{
+    printf("\n Hello");
+}
