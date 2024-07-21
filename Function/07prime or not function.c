@@ -24,7 +24,7 @@ int main()
         }
         else
         {
-            printf("\n Given number %s is not Prime",Num);
+            printf("\n Given number %d is not Prime",Num);
         }
     }
 
