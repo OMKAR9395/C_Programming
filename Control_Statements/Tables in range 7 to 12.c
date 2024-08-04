@@ -12,7 +12,7 @@ int main()
       }
       printf("\n");
   }
-  printf("\n\n===============Omkar Mohite=====================\n\n");
+  printf("\n\n===============RAJ YADAV=====================\n\n");
   getch();
   return 0;
 }
