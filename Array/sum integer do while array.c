@@ -5,6 +5,7 @@ int main() {
     int sum = 0;
     int i = 0;
     printf("\n Enter 10 different numbers: ");
+    
     do {
         printf("Number %d: ", i + 1);
         scanf("%d",&numbers[i]);
