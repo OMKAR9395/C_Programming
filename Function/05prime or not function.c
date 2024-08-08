@@ -1,4 +1,4 @@
-///with out using function
+//with out using function
 #include<stdio.h>
 #include<conio.h>
 int main()
