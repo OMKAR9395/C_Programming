@@ -1,3 +1,4 @@
+//Static By Using Function
 #include<stdio.h>
 #include<conio.h>
 int Book_Read(int);
