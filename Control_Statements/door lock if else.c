@@ -3,22 +3,22 @@
 int main()
 {
     int num;
-    printf("enter a number:");
+    printf("Enter a Number:");
     scanf("%d",&num);
     if (num>0)
     {
-        printf("%d is a positive number.\n",num);
+        printf("%d is a Positive Number.\n",num);
     }
     else if (num <0)
     {
-        printf("%d is a negative number.\n", num);
+        printf("%d is a Negative Number.\n", num);
 
     }
     else
     {
-        printf("you entered zero.\n");
+        printf("You Entered Zero.\n");
     }
-    printf("thanks.\n");
+    printf("Thanks.\n");
     getch();
     return 0;
 }

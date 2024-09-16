@@ -3,20 +3,20 @@
 int main()
 {
     int month;
-    printf("\n enter the month number: ");
+    printf("\n Enter the Month Number: ");
     scanf("%d",&month);
     if(month == 12 || month <= 2)
     {
-    printf("\n winter.");
+    printf("\n Winter.");
     }
     else if (month>= 3&& month <= 5)
 
     {
-    printf("\n spring.");
+    printf("\n Spring.");
     }
     else if(month >= 6 && month <= 8)
     {
-    printf("\n summer.");
+    printf("\n Summer.");
     }
     else
     {

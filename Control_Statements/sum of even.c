@@ -9,8 +9,8 @@ int main()
             sum += i;
         }
     }
-    printf("\n the sum of even numbers of 1 to 100 is %d",sum);
-    printf("\n thanks!");
+    printf("\n The Sum of Even Numbers of 1 to 100 is %d",sum);
+    printf("\n Thanks!");
     getch();
     return 0;
 }

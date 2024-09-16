@@ -3,28 +3,28 @@
 int main()
 {
     int score;
-    printf("enter your score between(1to100): ");
+    printf("Enter Your Score Between(1to100): ");
     scanf("%d",&score);
     switch(score / 10)
     {
     case 10:
     case 9:
-        printf("\n your grade is A");
+        printf("\n Your Grade is A");
         break;
     case 8:
-        printf("\n your grade is B");
+        printf("\n Your Grade is B");
         break;
     case 7:
-        printf("\n your grade is C");
+        printf("\n Your Grade is C");
         break;
     case 6:
-        printf("\n your grade is D");
+        printf("\n Your Grade is D");
         break;
     default:
-        printf("\n your grade is F");
+        printf("\n Your Grade is F");
         break;
     }
-    printf("\n thanks!");
+    printf("\n Thanks!");
     getch();
     return 0;
 }

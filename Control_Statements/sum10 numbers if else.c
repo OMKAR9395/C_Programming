@@ -2,11 +2,11 @@
 #include <conio.h>
 int main()
 {
-    int sum=0,number,i=1s;
-    printf("\n enter 10 different numbers: ");
+    int sum=0,number,i=1;
+    printf("\n Enter 10 Different Numbers: ");
     while(i<=10)
     {
-        printf("enter a number %d: ",i);
+        printf("Enter a Number %d: ",i);
         scanf("%d",&number);
         if(i==1)
         {
@@ -40,11 +40,11 @@ int main()
             sum+=number;
         }else
         {
-            printf("\n invalid");
+            printf("\n Invalid");
         }
         i++;
     }
-    printf("\n the sum of the 10 number is %d",sum);
+    printf("\n The Sum of the 10 Number is %d",sum);
     getch();
     return 0;
 }

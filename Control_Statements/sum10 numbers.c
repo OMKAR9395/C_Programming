@@ -4,14 +4,14 @@ int main()
 {
     int numbers[10];
     int sum=0;
-    printf("\n enter 10 employees salary: ");
+    printf("\n Enter 10 Employees Salary: ");
     for (int i=0; i<10;i++)
     {
-        printf("\n numbers %d: ",i+1);
+        printf("\n Numbers %d: ",i+1);
         scanf("%d",&numbers[i]);
         sum+=numbers[i];
     }
-    printf("\n the salary of 10 employees is : %d",sum);
+    printf("\n The Salary of 10 Employees is : %d",sum);
     getch();
     return 0;
 }

@@ -19,7 +19,7 @@ int main()
         number--;
     }
     printf("\n Factorial is given number is= %lld.",fact);
-    printf("\n thanks!!");
+    printf("\n Thanks!!");
     getch();
     return 0;
 }
