@@ -5,7 +5,7 @@ int main()
     int No=0,Res=0;
     printf("\n Enter A Number :");
     scanf("%d",&No);
-    Res = No << 4;
+    Res = No >> 4;
     printf("\n Result Right Shift By 3>> %d",Res);
     getch();
     return 0;
