@@ -1,4 +1,3 @@
-
 ////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  Student Information System For Admissions For Courses
@@ -10,8 +9,8 @@
 #include<stdlib.h>
 #include<string.h>
 
-void Accept_Student_Details();
-void Display_Student_Details();
+void Accept_Student_Details(struct Stud*);
+void Display_Student_Details(struct Stud*);
 
 struct Stud
 {
@@ -26,30 +25,36 @@ struct Stud
 
 int main()
 {
-            struct Stud Std[3];
+            int sCnt = 0;
+            struct Stud *StdPtr = NULL;
 
-            for(int i = 0; i < 3; i++)
+            printf("\n Enter How Many Students = ");
+            scanf("%d", &sCnt);
+
+            StdPtr = (struct Stud*)malloc(sCnt * sizeof(struct Stud));
+
+            for(int i = 0; i < sCnt; i++)
             {
                 printf("\n Enter Student %d Details =>\n ", i+1);
-                Accept_Student_Details(&Std[i]);
+                Accept_Student_Details(&StdPtr[i]);
             }
 
             printf("\n Enter Any Key To Go Ahead => ");
-            _getch();
+            getch();
 
             printf("\n ==================*****======================= ");
 
             printf("\n\n Entered Students Details Are => \n\n");
 
-            for(int i = 0; i < 3; i++)
+            for(int i = 0; i < sCnt; i++)
             {
                 printf("\n\n %d Student Details =>\n ", i+1);
-                Display_Student_Details(&Std[i]);
+                Display_Student_Details(&StdPtr[i]);
             }
 
             printf("\n\n Thanks For Using Our Application!!!");
 
-            _getch();
+            getch();
             return 0;
 }
 

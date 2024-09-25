@@ -72,7 +72,7 @@ void Accept_Student_Details(struct Stud *sPtr)
 }
 void Display_Student_Details(struct Stud *sPtr)
 {
-     printf("\n\t\t Roll Number       = %d", sPtr->Roll_No);
+            printf("\n\t\t Roll Number       = %d", sPtr->Roll_No);
             printf("\n\t\t Student Name      = %s", sPtr->Name);
             printf("\n\t\t Physics Marks     = %d", sPtr->Phy);
             printf("\n\t\t Chemistry Marks   = %d", sPtr->Chem);
