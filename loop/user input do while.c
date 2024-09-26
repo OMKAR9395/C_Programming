@@ -5,11 +5,11 @@ int main()
  int number;
  do
  {
-     printf("enter between number 1 to 10: ");
+     printf("Enter Between Number 1 to 10: ");
      scanf("%d",number);
  }
  while(number<1 || number> 10);
- printf("you entered: %d\n",number);
+ printf("You Entered: %d\n",number);
  getch();
  return 0;
 }

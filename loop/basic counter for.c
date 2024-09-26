@@ -4,9 +4,9 @@ int main()
 {
     for (int i = 1; i<=5; i++)
     {
-        printf("\n counter: %d",i);
+        printf("\n Counter: %d",i);
     }
-    printf("\n thanks!");
+    printf("\n Thanks!");
     getch();
     return 0;
 }

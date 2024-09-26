@@ -3,7 +3,7 @@
 int main()
 {
     int num;
-    printf("enter a number:");
+    printf("Enter a number:");
     scanf("%d",&num);
     if (num>0)
     {
@@ -18,7 +18,7 @@ int main()
     {
         printf("you entered zero.\n");
     }
-    printf("thanks.\n");
+    printf("Thanks.\n");
     getch();
     return 0;
 }

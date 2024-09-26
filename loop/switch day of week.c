@@ -3,36 +3,36 @@
 int main()
 {
     int day;
-    printf("enter a number between(1to7) to get the corresponding day of the week: ");
+    printf("Enter a number between(1to7) to get the corresponding day of the week: ");
     scanf("%d",&day);
     switch (day)
     {
     case 1:
-        printf("\n sunday");
+        printf("\n Sunday");
         break;
     case 2:
-        printf("\n monday");
+        printf("\n Monday");
         break;
     case 3:
-        printf("\n tuesday");
+        printf("\n Tuesday");
         break;
     case 4:
-        printf("\n wednseday");
+        printf("\n Wednseday");
         break;
     case 5:
-        printf("\n thursday");
+        printf("\n Thursday");
 
         break;
     case 6:
-        printf("\n friday");
+        printf("\n Friday");
         break;
     case 7:
-        printf("\n saturday");
+        printf("\n Saturday");
         break;
     default:
-        printf("\n error: invalid day");
+        printf("\n Error: Invalid Day");
     }
-    printf("\n thanks!");
+    printf("\n Thanks!");
     getch();
     return 0;
 }

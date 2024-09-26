@@ -3,50 +3,50 @@
 int main()
 {
     int month;
-    printf("enter number between 1 to 12: ");
+    printf("Enter Number Between 1 to 12: ");
     scanf("%d",&month);
     switch(month)
     {
     case 1:
-        printf("\n january");
+        printf("\n January");
         break;
     case 2:
-        printf("\n february");
+        printf("\n February");
         break;
     case 3:
-        printf("\n march");
+        printf("\n March");
         break;
     case 4:
-        printf("\n april");
+        printf("\n April");
         break;
     case 5:
-        printf("\n may");
+        printf("\n May");
         break;
     case 6:
-        printf("\n june");
+        printf("\n June");
         break;
     case 7:
-        printf("\n july");
+        printf("\n July");
         break;
     case 8:
-        printf("\n august");
+        printf("\n August");
         break;
     case 9:
-        printf("\n september");
+        printf("\n September");
         break;
     case 10:
-        printf("\n octomber");
+        printf("\n Octomber");
         break;
     case 11:
-        printf("\n november");
+        printf("\n November");
         break;
     case 12:
-        printf("\n december");
+        printf("\n December");
         break;
     default:
-        printf("\n error :you entered invalid month");
+        printf("\n Error :You Entered Invalid Month");
     }
-    printf("\n thanks!");
+    printf("\n Thanks!");
     getch();
     return 0;
 }

@@ -3,7 +3,7 @@
 int main()
 {
     char colour;
-    printf("enter traffic colour (R for Red,Y for Yellow, G for Green): ");
+    printf("Enter traffic colour (R for Red,Y for Yellow, G for Green): ");
     scanf("%c",&colour);
     switch(colour)
     {
@@ -20,9 +20,9 @@ int main()
         printf("\n GO SLOW");
         break;
     default:
-        printf("\n error: you entered wrong character");
+        printf("\n Error: You Entered Wrong Character");
     }
-    printf("\n thanks");
+    printf("\n Thanks");
     getch();
     return 0;
 }

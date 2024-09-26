@@ -7,7 +7,7 @@ int main()
     double bill_sum=0;
     while (1)
     {
-        printf("\n enter bill number %d= ",i+1);
+        printf("\n Enter Bill Number %d= ",i+1);
         scanf("%f",&bill_amt);
         if (bill_amt<=0)
         {
@@ -17,7 +17,7 @@ int main()
 
         i++;
     }
-    printf("\n addition of given bills= %lf",bill_sum);
+    printf("\n Addition of Given Bills= %lf",bill_sum);
     getch();
     return 0;
 }

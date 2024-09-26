@@ -6,22 +6,22 @@
 int main()
 {
     int bal=0;
-    printf("\n enter your account balance = ");
+    printf("\n Enter your account balance = ");
     scanf("%d",&bal);
     if (bal>0)
     {
-        printf("\n balance is +ve.");
+        printf("\n Balance is +ve.");
 
     }
     else if (bal<0)
     {
-        printf("\n balance is -ve.");
+        printf("\n Balance is -ve.");
     }
     else
     {
-        printf("balance is zero.");
+        printf("Balance is zero.");
     }
-    printf("\n thanks!!!");
+    printf("\n Thanks!!!");
     getch();
     return 0;
  }

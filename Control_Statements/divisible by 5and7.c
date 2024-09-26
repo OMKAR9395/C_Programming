@@ -3,7 +3,7 @@
 int main()
 {
     int number;
-    printf("enter a number: ");
+    printf("Enter a number: ");
     scanf("%d" ,&number);
     if (number %5==0 && number %7==0)
         {
@@ -14,7 +14,7 @@ int main()
         {
             printf("\n %d is not divided by 5 and 7",number);
         }
-        printf("\n thanks!!");
+        printf("\n Thanks!!");
     getch();
     return 0;
 }

@@ -5,11 +5,11 @@ int main()
     int i=0;
     do
     {
-        printf("\n hello patil");
+        printf("\n Hello Patil");
         i++;
     }
     while(i<10);
-    printf("\n thanks!");
+    printf("\n Thanks!");
     getch();
     return 0;
 }

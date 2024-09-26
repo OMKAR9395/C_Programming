@@ -3,33 +3,33 @@
 int main()
 {
     int score;
-        printf("enter your exam score: ");
+        printf("Enter your exam score: ");
         scanf("%d",&score);
     if (score>= 90)
     {
-        printf("\n your grade is A.");
+        printf("\n Your Grade is A.");
     }
     else if (score>= 80)
     {
-        printf("\n your grade is B.");
+        printf("\n Your Grade is B.");
     }
     else if (score>= 70)
     {
-        printf("\n your grade is C.");
+        printf("\n Your Grade is C.");
     }
     else if (score>= 60)
     {
-        printf("\n your grade is D.");
+        printf("\n Your Grade is D.");
     }
     else if (score>= 50)
     {
-        printf("\n your grade is E.");
+        printf("\n Your Grade is E.");
     }
     else
     {
-        printf("\n your grade is f.");
+        printf("\n Your Grade is f.");
     }
-    printf("\n thanks.");
+    printf("\n Thanks.");
     getch();
 
     return 0;
