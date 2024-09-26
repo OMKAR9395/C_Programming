@@ -59,7 +59,7 @@ int main()
     printf("\n\n=====================================================================\n\n");
 
     }
-    printf("\n================ Thanks For Using Our App ===================");
+    printf("\n================! Thanks For Using Our App !===================");
     getch();
     return 0;
 }

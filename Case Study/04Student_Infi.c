@@ -1,8 +1,8 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////
-//
-//  Student Information System For Admissions For Courses
-//
+//                                                                                        //
+//  Student Information System For Admissions For Courses                                 //
+//                                                                                        //  
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 #include<stdio.h>
@@ -16,7 +16,7 @@ void Display_Student_Details();
 struct Stud
 {
             int  Roll_No;
-            char  Name[80];
+            char  Name[50];
             int Phy;
             int Chem;
             int Maths;
@@ -35,7 +35,7 @@ int main()
             }
 
             printf("\n Enter Any Key To Go Ahead => ");
-            _getch();
+            getch();
 
             printf("\n ==================*****======================= ");
 
@@ -49,7 +49,7 @@ int main()
 
             printf("\n\n Thanks For Using Our Application!!!");
 
-            _getch();
+            getch();
             return 0;
 }
 
@@ -61,7 +61,6 @@ void Accept_Student_Details(struct Stud *sPtr)
             fflush(stdin);
 
             printf("\n Enter Student Name : ");
-            //scanf("%[^\n]", &Std->Name);
             gets(sPtr->Name);
 
             printf("\n Enter Physics Marks : ");
@@ -90,8 +89,8 @@ void Display_Student_Details(struct Stud *sPtr)
             printf("\n\t\t Total Marks       = %0.0f", sPtr->Total);
             printf("\n\t\t Percentage        = %0.3f", sPtr->Per);
 
-            printf("\n\n ==================*****======================= ");
+            printf("\n\n ==================Thank You======================= ");
 
-            _getch();
+            getch();
             return;
 }

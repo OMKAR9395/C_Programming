@@ -8,8 +8,8 @@
 #include<stdlib.h>
 #include<string.h>
 #define Size 5
-void Accept_Student_Details(struct Stud *sPtr);
-void Display_Student_Details(struct Stud *sPtr);
+void Accept_Student_Details();
+void Display_Student_Details();
 struct Stud
 {
     int Roll_No;
