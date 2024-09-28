@@ -29,7 +29,7 @@ int Digit_Sum(int No)
         Digit = No % 10 
         Sum = Sum + Digit;
         No = No / 10;
-        
+
     }
     return Sum;
 }
