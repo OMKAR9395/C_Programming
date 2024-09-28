@@ -12,7 +12,7 @@ int main()
     printf("\n Enter a Number :");
     scanf("%d", &No);
 
-    for(i=10;i>=1;i--)
+    for(i=10; i>=1; i--)
     {
         printf("\n\t%3d * %3d = %3d", No , i , No * i);
     }

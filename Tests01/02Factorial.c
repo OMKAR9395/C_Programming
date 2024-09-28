@@ -19,7 +19,7 @@ int main()
         Num = Num * Temp;
         Temp--;
     }
-    printf("\n %d of Factorial is = %d",Fact,Num);
+    printf("\n %d of Factorial is = %d", Fact,Num);
 
     getch();
     return 0;

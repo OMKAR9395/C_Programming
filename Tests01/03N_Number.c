@@ -7,7 +7,7 @@
 #include<conio.h>
 int main()
 {
-    int N=0, Temp=0, i=0,Sum=0;
+    int N = 0, Temp = 0, i = 0, Sum = 0;
 
     printf("\n Enter a Number to Calculate Sum :");
     scanf("%d",&N);
