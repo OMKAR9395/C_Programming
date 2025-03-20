@@ -22,7 +22,7 @@ struct Stud
 void Accept_Student_Details(struct Stud* sPtr,int Cnt);
 void Display_Student_Details(struct Stud* sPtr,int Cnt);
 void Search_Student_Details(struct Stud* sPtr, int);
-void Create_Batch(struct Stud** sPtr, int);
+void Create_Batch(struct Stud** sPtr);
 
 static int Cnt = 0;
 int main()
@@ -31,19 +31,10 @@ int main()
     char ch ='\0';
     struct Stud *Stdptr= NULL;
 
-    printf("\n Enter Count Of Student :");
-    scanf("%d",&Cnt);
 
-    Stdptr = (struct Stud*) malloc (Cnt * sizeof(struct Stud));
-
-    if (Stdptr == NULL)
-    {
-        printf("Memory allocation failed!\n");
-        return -1;
-    }
     up:
     printf("\n****************************Enter Choice Number.*********************************");
-    printf("\n1.Acccept Student Details.\n2.Display Student Details.\n3.Search Student Details.\n4.Create Batch.\n5.Exit");
+    printf("\n1.Acccept Student Details.\n2.Display Student Details.\n3.Search Student Details.\n4.Create Batch.\n5.Exit\n");
     scanf("%d",&Choice);
 
     switch(Choice)
@@ -75,6 +66,7 @@ int main()
         break;
     case 4:
         Create_Batch(&Stdptr);
+        system("cls");
         goto up;
         break;
     case 5:
