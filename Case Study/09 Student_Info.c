@@ -22,14 +22,14 @@ struct Stud
 void Accept_Student_Details(struct Stud* sPtr,int Cnt);
 void Display_Student_Details(struct Stud* sPtr,int Cnt);
 void Search_Student_Details(struct Stud* sPtr, int);
-void Search_Student_Details(struct Stud** sPtr, int);
+void Create_Batch(struct Stud** sPtr, int);
 
 static int Cnt = 0;
 int main()
 {
     int Choice=0,RNo =0;
     char ch ='\0';
-    struct Stud *Stdptr;
+    struct Stud *Stdptr= NULL;
 
     printf("\n Enter Count Of Student :");
     scanf("%d",&Cnt);
@@ -43,7 +43,7 @@ int main()
     }
     up:
     printf("\n****************************Enter Choice Number.*********************************");
-    printf("\n1.Acccept Student Details.\n2.Display Student Details.\n3.Search Student Details.\n4.How Many Student.\n5.Exit");
+    printf("\n1.Acccept Student Details.\n2.Display Student Details.\n3.Search Student Details.\n4.Create Batch.\n5.Exit");
     scanf("%d",&Choice);
 
     switch(Choice)
@@ -71,6 +71,10 @@ int main()
         Search_Student_Details(Stdptr, RNo);
         system("cls");
 
+        goto up;
+        break;
+    case 4:
+        Create_Batch(&Stdptr);
         goto up;
         break;
     case 5:
@@ -109,6 +113,15 @@ int main()
     getch();
     return 0;
 
+}
+void Create_Batch(struct Stud** sPPtr)
+{
+    printf("\n Enter How Many Students = ");
+            scanf("%d", &Cnt);
+
+            *sPPtr = (struct Stud*)malloc(Cnt * sizeof(struct Stud));
+
+            return;
 }
 void Accept_Student_Details(struct Stud* sPtr,int Cnt)
 {
