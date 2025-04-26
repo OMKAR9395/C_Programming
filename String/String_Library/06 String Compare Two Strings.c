@@ -7,6 +7,7 @@ int main()
     char SecondString[50] = "";
     int ComparisonResult = 0;
 
+    
     puts("\n Enter First String :");
     gets(FirstString);
 
@@ -29,7 +30,7 @@ int main()
     {
     printf("%s is less than %s", FirstString, SecondString);
     }
-    
+
     getch();
     return 0;
 }
