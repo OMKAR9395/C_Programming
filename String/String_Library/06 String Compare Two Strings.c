@@ -20,7 +20,6 @@ int main()
     if (ComparisonResult == 0)
     {
     printf("Both strings are equal.");
-    
     }
     else if (ComparisonResult > 0)
     {
