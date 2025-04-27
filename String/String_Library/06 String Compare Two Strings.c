@@ -3,6 +3,7 @@
 #include <conio.h>
 int main()
 {
+    
     char FirstString[50] = "";
     char SecondString[50] = "";
     int ComparisonResult = 0;
@@ -30,7 +31,7 @@ int main()
     printf("%s is less than %s", FirstString, SecondString);
     }
 
-    
+
     getch();
     return 0;
 }
