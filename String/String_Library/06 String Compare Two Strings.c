@@ -9,13 +9,14 @@ int main()
     char SecondString[50] = "";
     int ComparisonResult = 0;
 
+    
     puts("\n Enter First String :");
     gets(FirstString);
 
     puts("\n Enter Second String :");
     gets(SecondString);
 
-    
+
     ComparisonResult = strcmp(FirstString, SecondString);
 
     printf("\n Comparing %s and %s\n", FirstString, SecondString);
