@@ -8,6 +8,7 @@ int main()
     char SecondString[50] = "";
     int ComparisonResult = 0;
 
+    
     puts("\n Enter First String :");
     gets(FirstString);
 
