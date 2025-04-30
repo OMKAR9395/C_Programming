@@ -9,7 +9,6 @@ int main()
     int ComparisonResult = 0;
 
     
-    
     puts("\n Enter First String :");
     gets(FirstString);
 
