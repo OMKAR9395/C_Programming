@@ -31,7 +31,6 @@ int main()
     printf("%s is less than %s", FirstString, SecondString);
     }
 
-    
     getch();
     return 0;
 }
