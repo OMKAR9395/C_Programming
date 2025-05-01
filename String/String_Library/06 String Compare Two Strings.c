@@ -10,8 +10,7 @@ int main()
 
     puts("\n Enter First String :");
     gets(FirstString);
-
-    
+ 
     puts("\n Enter Second String :");
     gets(SecondString);
    
