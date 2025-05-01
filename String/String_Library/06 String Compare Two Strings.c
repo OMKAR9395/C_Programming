@@ -23,7 +23,6 @@ int main()
     printf("Both strings are equal.");
     }
     else if (ComparisonResult > 0)
-    
     {
     printf("%s is greater than %s", FirstString, SecondString);
     }
