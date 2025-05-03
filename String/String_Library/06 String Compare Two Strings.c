@@ -14,6 +14,7 @@ int main()
     puts("\n Enter Second String :");
     gets(SecondString);
    
+    
     ComparisonResult = strcmp(FirstString, SecondString);
 
     printf("\n Comparing %s and %s\n", FirstString, SecondString);
