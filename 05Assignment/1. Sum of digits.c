@@ -13,7 +13,7 @@ int main()
     printf("\n ");
     sum = sumDigits(num);
 
-    printf(" = %d", sum);
+    printf("\n Sum Of %d is =%d",num, sum);
 
     getch();
     return 0;
@@ -22,23 +22,11 @@ int main()
 int sumDigits(int num)
 {
     int sum = 0, rem;
-    int first = 1;
 
     while(num != 0)
     {
         rem = num % 10;
         num = num / 10;
-
-        if(first)
-        {
-            printf("%d", rem);
-            first = 0;
-        }
-        else
-        {
-            printf("+%d", rem);
-        }
-
         sum += rem;
     }
 

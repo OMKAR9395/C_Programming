@@ -28,7 +28,6 @@ int countEvenDigits(int num)
 
         if(rem % 2 == 0)
             count++;
-
         num /= 10;
     }
 
