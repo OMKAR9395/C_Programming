@@ -21,9 +21,10 @@ int main()
 
     printf("\n Product id is = %d",Pobj.Pid);
     printf("\n Product Name is = %s",Pobj.PName);
-    
+
     printf("\n Product Purchase Price is = %f",Pobj.PPPrice);
     printf("\n Product Sales Price is = %f",Pobj.PSPrice);
+    
     getch();
     return 0;
 }
