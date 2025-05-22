@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
+
 struct Product
 {
     int Pid;
@@ -24,7 +25,7 @@ int main()
 
     printf("\n Product Purchase Price is = %f",Pobj.PPPrice);
     printf("\n Product Sales Price is = %f",Pobj.PSPrice);
-    
+
     getch();
     return 0;
 }
