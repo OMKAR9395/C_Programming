@@ -13,7 +13,9 @@ int main()
 {
     struct Product Pobj;
     Pobj.Pid=21;
+
     strcpy(Pobj.PName,"Book");
+    
     Pobj.PPPrice=110;
     Pobj.PSPrice=150;
     printf("\n Product id is = %d",Pobj.Pid);
