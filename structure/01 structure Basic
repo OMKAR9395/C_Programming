@@ -6,6 +6,7 @@ struct Product
 {
     int Pid;
     char PName[10];
+    
     float PPPrice;
     float PSPrice;
 
