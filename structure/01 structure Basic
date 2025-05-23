@@ -9,7 +9,6 @@ struct Product
 
     float PPPrice;
     float PSPrice;
-
 };
 
 int main()
@@ -29,7 +28,7 @@ int main()
     printf("\n Product Purchase Price is = %f",Pobj.PPPrice);
     printf("\n Product Sales Price is = %f",Pobj.PSPrice);
 
-    
+
     getch();
     return 0;
 }
