@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <conio.h>
-#include <string.h>
-
 void Reverse_First_Word(char *);
 
 int main()
