@@ -1,13 +1,15 @@
 #include "omkar.h"
 
-int main() {
+int main()
+{
     char str[100], dest[100];
     int choice, len, count, vowels, consonants, others;
 
     printf("Enter a string: ");
     gets(str);
 
-    do {
+    do
+    {
 
         system("cls");
         printf("\n\n==========================*****==========================\n\n");
@@ -31,7 +33,8 @@ int main() {
 
         system("cls"); // Clear before showing output of selected operation
 
-        switch (choice) {
+        switch (choice)
+        {
             case 1:
                 len = strlenP(str);
                 printf("Length: %d\n", len);
@@ -88,12 +91,14 @@ int main() {
                 printf("Invalid choice!\n");
         }
 
-        if (choice != 0) {
+        if (choice != 0)
+        {
             printf("\nPress Enter to continue...");
             getchar();
         }
 
-    } while (choice != 0);
+    }
+    while (choice != 0);
 
     return 0;
 }
